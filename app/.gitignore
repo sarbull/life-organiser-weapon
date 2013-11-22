@@ -13,3 +13,4 @@
 
 # Ignore database.yml connection
 config/database.yml
+/*.swp
