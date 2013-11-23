@@ -1,11 +1,12 @@
 class TaskController < ApplicationController
 
-  def new
-    @task = Task.new
+  def index
+    @tasks = Project.find(params[:project_id]).tasks
   end
 
-  def create
-    @task.save
+  def show
+    project = Project.find(params[:project_id])
+    @task   = project.tasks.find(params[:id])
   end
 
 end

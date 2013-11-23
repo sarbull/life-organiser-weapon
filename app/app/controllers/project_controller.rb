@@ -1,10 +1,6 @@
 class ProjectController < ApplicationController
 
-  def tasks
-    @tasks = Project.find(params[:project_id]).tasks
-  end
-
-  def all
+  def index
     @projects = Project.all
   end
 
