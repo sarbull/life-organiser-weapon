@@ -4,12 +4,13 @@
   <title><%= @page_title %></title>
   <%= stylesheet_link_tag     "application", media: "all" %>
   <%= favicon_link_tag        "favicon.ico", type: "image/x-icon" %>
+  <%= javascript_include_tag  "http://use.edgefonts.net/open-sans:n7,i7,n8,i8,i4,n3,i3,n4,n6,i6:all.js" %>
   <%= javascript_include_tag  "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+<div id="container">
+  <%= yield %>
+</div>
 </body>
 </html>
