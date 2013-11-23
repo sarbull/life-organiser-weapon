@@ -1,8 +1,15 @@
 class ProjectController < ApplicationController
 
   def tasks
-    p = Project.find(params[:id])
-    @tasks = p.tasks
+    @tasks = Project.find(params[:project_id]).tasks
+  end
+
+  def all
+    @projects = Project.all
+  end
+
+  def show
+    @project = Project.find(params[:id])
   end
 
 end
