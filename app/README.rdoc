@@ -1,23 +1,22 @@
 == README
 
 * Ruby version
-  ruby-2.0.0-p247
+ - ruby-2.0.0-p247
 
 * Rails version
-  4.0.1
+ - 4.0.1
 
 * System dependencies
-  None that i can think of.
+ - None that i can think of.
 
 * Configuration
 
 * Database creation
-  Copy the config/database.yml.tpl to config/database.yml and add your database name, user and password if any
+ - Copy the config/database.yml.tpl to config/database.yml and add your database name, user and password if any
 
 * Database initialization
-  None, yet.
-* How to run the test suite
+ - None, yet.
 
 * Services (job queues, cache servers, search engines, etc.)
-  None that i can think of.
+ - None that i can think of.
 
