@@ -8,12 +8,7 @@ App::Application.routes.draw do
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
-  #get 'projects' => 'project#all'
-  
-  resources :projects, :controller => "project"
-
   resources :project do
-    resources :tasks, :controller => "task"
     resources :task
   end
 
