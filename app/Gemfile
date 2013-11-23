@@ -38,7 +38,8 @@ group :development do
 end
 
 group :development, :test do
-    gem 'rspec-rails', '~> 3.0.0.beta'
-    gem 'factory_girl_rails'
-    gem 'capybara'
+  gem 'rspec-rails', '~> 3.0.0.beta'
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem "launchy", "~> 2.4.0"
 end

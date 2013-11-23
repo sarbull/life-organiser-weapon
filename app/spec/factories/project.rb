@@ -1,7 +1,12 @@
 FactoryGirl.define do
   factory :project do
     id          '1'
-    name        'Project1'
-    description 'Super simple description'
+    name        'Project name'
+    description 'Project description'
+  end
+  factory :task do
+    id          '1'
+    name        'Task name'
+    description 'Task description'
   end
 end
