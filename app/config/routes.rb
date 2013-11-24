@@ -8,6 +8,8 @@ App::Application.routes.draw do
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
+  get 'projects' => 'project#index'
+
   resources :project do
     resources :task
   end
