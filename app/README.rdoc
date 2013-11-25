@@ -18,4 +18,4 @@
 * Services (job queues, cache servers, search engines, etc.)
   - None that i can think of.
 
-![alt tag](https://raw.github.com/sarbull/low/master/printscreen/low.jpg)
+http://oi41.tinypic.com/scrymv.jpg
