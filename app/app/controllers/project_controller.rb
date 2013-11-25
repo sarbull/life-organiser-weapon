@@ -9,6 +9,9 @@ class ProjectController < ApplicationController
       format.json do
         render json: @projects
       end
+      format.xml do
+        render xml: @projects
+      end
     end
   end
 
@@ -18,6 +21,9 @@ class ProjectController < ApplicationController
       format.html
       format.json do
         render json: @project
+      end
+      format.xml do
+        render xml: @project
       end
     end
   end
