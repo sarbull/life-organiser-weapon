@@ -22,7 +22,7 @@ describe 'Project page' do
   end
 
   it 'shows all tasks from a project' do
-    visit '/project/#{@project.id}'
+    visit "/project/#{@project.id}"
     page.should have_content(@project.name)
     page.should have_content(@project.description)
     page.should have_content(@task.name)
@@ -30,7 +30,7 @@ describe 'Project page' do
   end
 
   it 'shows a task' do
-    visit '/project/#{@project.id}/task/#{@task.id}'
+    visit "/project/#{@project.id}/task/#{@task.id}"
     page.should have_content(@task.name)
     page.should have_content(@task.description)
     page.status_code.should eq(200)
