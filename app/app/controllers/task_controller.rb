@@ -1,5 +1,7 @@
+# encoding: utf-8
+# app/controllers/task_controller.rb
+# Task controller
 class TaskController < ApplicationController
-
   def index
     @tasks = Project.find(params[:project_id]).tasks
   end
@@ -8,5 +10,4 @@ class TaskController < ApplicationController
     project = Project.find(params[:project_id])
     @task   = project.tasks.find(params[:id])
   end
-
 end

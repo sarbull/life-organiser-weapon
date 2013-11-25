@@ -1,3 +1,6 @@
+# encoding: utf-8
+# db/migrate/20131123042750_create_userproperties.rb
+# Create Userproperties
 class CreateUserproperties < ActiveRecord::Migration
   def change
     create_table :userproperties do |t|
